@@ -53,6 +53,8 @@ End-DS;
 // Traitement principal
 // ---------------------------------------------------------------
 
+dsply 'test';
+
 // Afficher l'article
 wMsg = 'Article : ' + %TrimR(dsArticle.Nom);
 Dsply wMsg '' wReponse;
